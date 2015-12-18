@@ -97,130 +97,17 @@ margin: auto;
 
 
 
-    <!--カウントダウン-->
-
-<style type="text/css">
-.wrap{
-width:auto;
-margin-left:auto;
-margin-right:auto;
-padding:auto;
-border:solid 0px #000000;
-margin-bottom:auto;
-}
-.clearfix:after {
-content: ".";
-display: block;
-clear: both;
-height: 0;
-visibility: hidden;
-}
-
-.clearfix {
-min-height: 1px;
-}
-
-* html .clearfix {
-height: 1px;
-/*¥*//*/
-height: auto;
-overflow: hidden;
-/**/
-}
-#CDT{
-font-size: 20px;
-color:#000;
-font-weight:bold;
-border-radius:15px;
-text-shadow:#FFF 1px 1px;
-margin-right:20px;
-}
-#CDT .day{
-font-size: 30px;
-color:#ff0000;
-}
-#CDT .hour,#CDT .min,#CDT .sec{
-font-size: 30px;
-color:#ff0000;
-}
-#Time{
-width:auto;
-margin:auto;
-}
-.sec{
-color:#fff;
-}
-.timetext{
-font-size:20px;
-font-weight:bold;
-color:#555555;
-margin-right:10px;
-margin:0;
-padding:0;
-}
-</style>
-
-<center>
-<div class="wrap clearfix">
-<p class="timetext" id="text"></p><div id="CDT"></div>
-<script type="text/javascript">
-function CountdownTimer(elm,tl,mes){
-this.initialize.apply(this,arguments);
-}
-CountdownTimer.prototype={
-initialize:function(elm,tl,mes) {
-this.elem = document.getElementById(elm);
-this.tl = tl;
-this.mes = mes;
-},countDown:function(){
-var timer='';
-var today=new Date();
-var day=Math.floor((this.tl-today)/(24*60*60*1000));
-var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000));
-var min=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*1000))%60;
-var sec=Math.floor(((this.tl-today)%(24*60*60*1000))/1000)%60%60;
-var milli=Math.floor(((this.tl-today)%(24*60*60*1000))/10)%100;
-var me=this;
-
-if( ( this.tl - today ) > 0 ){
-if (day) timer += '<span class="day">'+day+'DAY　　</span>';
-if (hour) timer += '<span class="hour">'+hour+'HOUR　　 </span>';
-timer += '<span class="min">'+this.addZero(min)+'MIN　　</span><span class="sec">'+this.addZero(sec)+'SEC　　</span><span class="milli">'+this.addZero(milli)+'</span>';
-this.elem.innerHTML = timer;
-tid = setTimeout( function(){me.countDown();},10 );
-}else{
-this.elem.innerHTML = this.mes;
-return;
-}
-},addZero:function(num){ return ('0'+num).slice(-2); }
-}
-
-function CDT(){
-var day = new Date();
-var saleday = new Date('2015/11/07 10:00:00');//イベント開始日時を入力
-if((saleday - day) > 0) {
-var text = 'Starting Drone Impact Challenge...';//イベントが開始されるまでの文言を入力
-var tl = new Date('2015/11/07 10:00:00');//イベント開始日時を入力
-var timer = new CountdownTimer('CDT',tl);
-timer.countDown();
-target = document.getElementById("text");
-target.innerHTML = text;
-}else{
-//var text = '開催中！ : ';//イベントが終了されるまでの文言を入力
-var text = '　';//イベントが終了されるまでの文言を入力
-var tl = new Date('2015/11/07 17:00:00');//イベント終了日時を入力
-var timer = new CountdownTimer('CDT',tl,'ご来場ありがとうございました！');//イベント終了後の文言を入力
-timer.countDown();
-target = document.getElementById("text");
-target.innerHTML = text;
-}
-}
-
-window.onload=function(){
-CDT();
-}
-</script></div>
-<!--カウントダウン-->
+<!--youtube start-->
+  <div class="youtube">
+    <iframe width="640" height="480" src="https://www.youtube.com/embed/XZzy7Uh0kpU" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <center>
+    <iframe width="300" height="280" src="https://www.youtube.com/embed/wpHhh160jQE" frameborder="0" allowfullscreen></iframe>
+    <iframe width="300" height="280" src="https://www.youtube.com/embed/Yt4CZUhLVWo" frameborder="0" allowfullscreen></iframe>
+    <iframe width="300" height="280" src="https://www.youtube.com/embed/sPFfWNl4Ysg" frameborder="0" allowfullscreen></iframe>
+    <iframe width="300" height="280" src="https://www.youtube.com/embed/AXUzeuxKJR0" frameborder="0" allowfullscreen></iframe>
+  </center>
+<!--youtube end-->
 
 
 
@@ -228,18 +115,15 @@ CDT();
           <div class="row">
               <div class="col-md-12">
 
-<h3 class="wow fadeInUp"><a href="http://www.tv-tokyo.co.jp/official/gyotenp140620/">【NEWS】テレビ東京放送決定！「仰天パニックシアター」12月31日18:00-21:30</a></h3>
-<h3 class="wow fadeInUp"><a href="http://otn.fujitv.co.jp/b_hp/915200208.html">【NEWS】フジテレビ放送決定！「レース番組」12月25日 18:30-19:00,12月30日再放送14:30-15:00</a></h3>
 <h3 class="wow fadeInUp"><a href="http://www.ntv.co.jp/bankisha/index.html">【NEWS】日本テレビ放送決定！「真相報道バンキシャ!」12月27日(日)年末特番</a></h3>
+<h3 class="wow fadeInUp"><a href="http://otn.fujitv.co.jp/b_hp/915200208.html">【NEWS】フジテレビ放送決定！「レース番組」12月25日 18:30-19:00,12月30日再放送14:30-15:00</a></h3>
+<h3 class="wow fadeInUp"><a href="http://www.tbs.co.jp/sunday/">【NEWS】TBS放送決定！「サンデーモーニング」12月7日 8:35-9:10</a></h3>
 <h3 class="wow fadeInUp"><a href="http://www.sensors.jp/">【NEWS】日本テレビ放送決定！「センサーズ」11月21日（土曜日深夜）28:10-28:40 (時間変更)</a></h3>
 <h3 class="wow fadeInUp"><a href="http://www.tv-tokyo.co.jp/wbs/">【NEWS】テレビ東京放送決定！「WBS」11月17日(※12日より変更) 23:00-23:58</a></h3>
-<h3 class="wow fadeInUp"><a href="http://www.tbs.co.jp/sunday/">【NEWS】TBS放送決定！「サンデーモーニング」12月7日 8:35-9:10</a></h3>
-
 <h3 class="wow fadeInUp"><a href="http://www.tbs.co.jp/sunday/">【NEWS】NHK放送決定！「首都圏ネットワーク」11月7日 18:10-19:00</a></h3>
 <h3 class="wow fadeInUp"><a href="http://www.tbs.co.jp/sunday/">【NEWS】TV朝日放送決定！「ANN NEWS」11月7日 17:40</a></h3>
 <h3 class="wow fadeInUp"><a href="http://www.tbs.co.jp/sunday/">【NEWS】フジテレビ放送決定！「めざましテレビ」11月7日 5:25-8:00</a></h3>
 <h3 class="wow fadeInUp"><a href="http://www.tbs.co.jp/sunday/">【NEWS】日本テレビ放送決定！「すっきり！！」11月7日 8:00-10:25</a></h3>
-
 <h3 class="wow fadeInUp"><a href="http://facebook.com/dichallenge">【駐車場ご案内】当日の駐車場について、注意事項はこちら。</a></h3>
 <h3 class="wow fadeInUp"><a href="http://otn.fujitv.co.jp/b_hp/915200208.html" target="_blank">【NEWS】フジテレビ放送決定！12月25日、30日に大会映像を放映します。</a></h3>
 <h3 class="wow fadeInUp"><a href="http://live.nicovideo.jp/watch/lv239479203" target="_blank">【NEWS】ニコニコ生放送決定！11月7日の大会をライブ中継します。</a></h3>
@@ -251,7 +135,7 @@ CDT();
       <div class="row" style="padding-top:0px; background-color:#ffffff"><img src="img/ZMR.png"></div>
     </div>
 <!--container end-->
-<!-- privacy -->
+<!-- privacy
     <div class="container privacy-terms">
         <div class="row">
             <div class="col-md-12"><br>
@@ -266,7 +150,8 @@ CDT();
             </div>
         </div>
     </div>
-<!--property end-->
+property end-->
+
 
 <!-- entry -->
 <div class="banner">
@@ -280,19 +165,9 @@ CDT();
 </div>
 <!-- entry end-->
 
-<!--youtube start-->
-  <div class="youtube">
-    <iframe width="640" height="480" src="https://www.youtube.com/embed/wpHhh160jQE" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <center>
-    <iframe width="300" height="280" src="https://www.youtube.com/embed/Yt4CZUhLVWo" frameborder="0" allowfullscreen></iframe>
-    <iframe width="300" height="280" src="https://www.youtube.com/embed/sPFfWNl4Ysg" frameborder="0" allowfullscreen></iframe>
-    <iframe width="300" height="280" src="https://www.youtube.com/embed/AXUzeuxKJR0" frameborder="0" allowfullscreen></iframe>
-  </center>
-<!--youtube end-->
-
+<br><br><br><br>
 <center><a class="btn btn-lg btn-primary" href="https://www.facebook.com/groups/945330178820575/" target="_blank" role="button" style="width:260px">Facebook公開グループに参加</a></center> <br />
-
+<br><br><br><br>
 
 
 
@@ -331,7 +206,7 @@ CDT();
     <a href="http://www.orso.jp/" target="_blank"><img src="img/s_banner_ORSO_LOGO_s.jpg" alt=""></a>　　
     <a href="http://otn.fujitv.co.jp/" target="_blank"><img src="img/s_banner_ftv_next_s.jpg" alt=""></a>　　
     <a href="http://www.nicovideo.jp/" target="_blank"><img src="img/s_banner_niconico_s.jpg" alt=""></a>　　
-    <a href="http://www.seiko-sts.co.jp/" target="_blank"><img src="img/s_Banner_SEIKO-L-Y_s.jpg" alt=""></a><br />　　
+    <a href="http://www.seiko-sts.co.jp/" target="_blank"><img src="img/s_Banner_SEIKO-L-Y_s.jpg" alt=""></a>　　
     <a href="http://gestiss.org/" target="_blank"><img src="img/s_banner_gestiss_s.jpg" alt=""></a>　　
     <a href="http://www.gsc.aoyama.ac.jp/" target="_blank"><img src="img/s_banner_GSCaoyama_Logo_s.png" alt=""></a>　　
     <br><br>
