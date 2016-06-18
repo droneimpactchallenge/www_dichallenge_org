@@ -1,0 +1,474 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="ドローンの可能性を、みんなの手で広げる場">
+    <meta property="og:image" content="./img/dicc.jpg">
+    <meta property="og:description" content="ドローンの可能性を、みんなの手で広げる場">
+<style>
+.youtube{
+    position:relative;
+    padding-bottom: 50%;
+    padding-top:10px;
+    height:0;
+    overflow:hidden;
+}
+.youtube iframe{
+    position:absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+    width:60%;
+    height:90%;
+}
+</style>
+
+  <title>Drone Impact Challenge</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/theme.css" rel="stylesheet">
+    <link href="./css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="./css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/style-responsive.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/rrssb.css" />
+    <link rel="SHORTCUT ICON" href="img/favicon.ico">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+  <script type="text/javascript" src="./js/main.js" charset="UTF-8"></script></head>
+
+  <body>
+<!--   Fixed Navigation   ==================================== -->
+  <header id="navigation" class="navbar-fixed-top navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+                    <!-- /responsive nav button -->
+
+                    <!-- logo -->
+                    <a class="navbar-brand" href="index.html">
+                       <div id="logo">
+                       Drone Impact Challenge<br>
+                       </div>
+                    </a>
+                    <!-- /logo -->
+                </div>
+                <!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li class="not_current"><a href="https://www.facebook.com/groups/945330178820575/"><img src="img/fb_icon_20x20.png"></a></li>
+                        <li class="not_current"><a href="./concept_jp.html">about</a></li>
+                        <li class="not_current"><a href="http://peatix.com/event/177249/published">entry</a></li>
+                        <li class="not_current"><a href="./rules_jp.html">regulations</a></li>
+                        <li class="not_current"><a href="./news_jp.html">media</a></li>
+                        <li class="not_current"><a href="./supporters_jp.html">sponsors</a></li>
+                        <li class="not_current"><a href="./contact_jp.html">contact</a></li>
+                    </ul>
+                    <span class="language"><a href="index.html" class="language_on">日本語</a>&nbsp |&nbsp <a href="index_en.html"  class="language_off">EN</a></span>
+                </nav>
+                <!-- /main nav -->
+            </div>
+        </header>
+<!--   Fixed Navigation   ==================================== -->
+
+<!--container start-->
+
+<div class="banner">
+<p style="position: relative;">
+   <img src="img/english_TOP DIC ASIA CUP 2016_out.jpg"><br>
+   <span style="position: absolute; top: 65%; left: 45%;">
+   </span>
+</p>
+</div>
+
+<br>
+
+<style type="text/css">
+.wrap{
+width:auto;
+margin-left:auto;
+margin-right:auto;
+padding:auto;
+border:solid 0px #000000;
+margin-bottom:auto;
+}
+.clearfix:after {
+content: "."; 
+display: block;
+clear: both;
+height: 0;
+visibility: hidden;
+}
+
+.clearfix {
+min-height: 1px;
+}
+
+* html .clearfix {
+height: 1px;
+/*¥*//*/
+height: auto;
+overflow: hidden;
+/**/
+}
+#CDT{
+font-size: 20px;
+color:#000;
+font-weight:bold;
+border-radius:15px;
+text-shadow:#FFF 1px 1px;
+margin-right:20px;
+}
+#CDT .day{
+font-size: 30px;
+color:#ff0000;
+}
+#CDT .hour,#CDT .min,#CDT .sec{
+font-size: 30px;
+color:#ff0000;
+}
+#Time{
+width:auto;
+margin:auto; 
+}
+.sec{
+color:#fff; 
+}
+.timetext{
+font-size:20px;
+font-weight:bold;
+color:#555555; 
+margin-right:10px;
+margin:0;
+padding:0;
+}
+</style>
+
+<center>
+<div class="wrap clearfix">
+<p class="timetext" id="text"></p><div id="CDT"></div>
+<script type="text/javascript">
+function CountdownTimer(elm,tl,mes){
+this.initialize.apply(this,arguments);
+}
+CountdownTimer.prototype={
+initialize:function(elm,tl,mes) {
+this.elem = document.getElementById(elm);
+this.tl = tl;
+this.mes = mes;
+},countDown:function(){
+var timer='';
+var today=new Date();
+var day=Math.floor((this.tl-today)/(24*60*60*1000));
+var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000));
+var min=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*1000))%60;
+var sec=Math.floor(((this.tl-today)%(24*60*60*1000))/1000)%60%60;
+var milli=Math.floor(((this.tl-today)%(24*60*60*1000))/10)%100;
+var me=this;
+
+if( ( this.tl - today ) > 0 ){
+if (day) timer += '<span class="day">'+day+'DAY　　</span>';
+if (hour) timer += '<span class="hour">'+hour+'HOUR　　 </span>';
+timer += '<span class="min">'+this.addZero(min)+'MIN　　</span><span class="sec">'+this.addZero(sec)+'SEC　　</span><span class="milli">'+this.addZero(milli)+'</span>';
+this.elem.innerHTML = timer;
+tid = setTimeout( function(){me.countDown();},10 );
+}else{
+this.elem.innerHTML = this.mes;
+return;
+}
+},addZero:function(num){ return ('0'+num).slice(-2); }
+}
+
+function CDT(){
+var day = new Date();
+var saleday = new Date('2016/07/29 10:00:00');//イベント開始日時を入力
+if((saleday - day) > 0) {
+var text = '';//イベントが開始されるまでの文言を入力
+var tl = new Date('2016/07/29 10:00:00');//イベント開始日時を入力
+var timer = new CountdownTimer('CDT',tl);
+timer.countDown();
+target = document.getElementById("text");
+target.innerHTML = text;
+}else{
+var text = 'Drone Impact Challenge Now On! : ';//イベントが終了されるまでの文言を入力
+var tl = new Date('2016/07/31 18:00:00');//イベント終了日時を入力
+var timer = new CountdownTimer('CDT',tl,'Thank You. ！');//イベント終了後の文言を入力
+timer.countDown();
+target = document.getElementById("text");
+target.innerHTML = text;
+}
+}
+
+window.onload=function(){
+CDT();
+}
+</script></div>
+<!--カウントダウン-->
+
+<div class="banner">
+<p style="position: relative;">
+   <img src="img/pilot3.jpg"><br>
+   <span style="position: absolute; top: 65%; left: 45%;">
+   </span>
+</p>
+</div>
+
+<!-- summary -->
+    <div class="container privacy-terms">
+        <div class="row">
+            <div class="col-md-12"><br>
+                <h2 class="wow fadeInUp">　“Drone Impact Challenge ASIA CUP 2016”</h2>
+                <ul class="wow fadeInUp member_produce">
+                  
+                  <br><br>
+                  
+                  <h4>
+                  will be held in Main venue at <a style="color:#0a0;">Semboku, Akita, Japan.</a><br>
+                  The race dates are July 29 to 31, 2016,
+                  with the Championships on Sunday, July 31 and qualifiers,
+                  fun racing, and elimination races all three days.<br><br> 
+                  The most of the activities will be in the Main Venue(Hotel Morinokaze Tazawako) area
+                  and Wing class championship racing will be held
+                  in the south side of the <a style="color:#0a0;">Dakigaeri valley for Oct 29 only.</a><br><br>
+                  We will be held the  <a style="color:#0a0;">Asian CUP for the first time in Japan.</a><br>
+                  We will invite a pilot from Asian countries ( eight countries planned)
+                  . China , Korea , Singapore , Indonesia , etc.<br><br>
+                  </h4>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <br><br><br>
+    
+<!--summary end-->
+
+<div class="banner">
+<p style="position: relative;">
+   <img src="img/drone1.jpg"><br>
+   <span style="position: absolute; top: 65%; left: 45%;">
+   </span>
+</p>
+</div>
+
+<!-- privacy -->
+    <div class="container privacy-terms">
+        <div class="row">
+            <div class="col-md-12"><br>
+                <h2 class="wow fadeInUp">　Abstract</h2>
+                <ul class="wow fadeInUp member_produce">
+                  <h4>
+                  Date：July29(fri),30(Sat),31(Sun) 09:00～17:00　Rain or Shine<br>
+                  Venue：Hotel Morinokaze Tazawako, Dakigaei Valley(Senboku-Shi, Akita, JAPAN)　<a href="http://www.morinokaze.com/" style="color:#FF0000;" target="_blank">www.morinokaze.com</a><br>
+                  Contents：Keynote, Drone Race, Drone School, AND MORE.<br>
+                  </h4>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <br><br><br>
+    
+<!--property end-->
+
+
+
+<div class="banner">
+<p style="position: relative;">
+   <img src="img/rule.jpg"><br>
+   <span style="position: absolute; top: 65%; left: 45%;">
+   </span>
+</p>
+</div>
+
+<div class="banner">
+<p style="position: relative;">
+   <img src="img/rule4.jpg"><br>
+   <span style="position: absolute; top: 65%; left: 45%;">
+   </span>
+</p>
+</div>
+
+<br><br><br>
+
+<!--container end-->
+
+
+
+</div>
+
+<!--youtube start-->
+  <center>
+    <iframe width="300" height="280" src="https://www.youtube.com/embed/Yt4CZUhLVWo" frameborder="0" allowfullscreen></iframe>
+    <iframe width="300" height="280" src="https://www.youtube.com/embed/sPFfWNl4Ysg" frameborder="0" allowfullscreen></iframe>
+    <iframe width="300" height="280" src="https://www.youtube.com/embed/AXUzeuxKJR0" frameborder="0" allowfullscreen></iframe>
+  </center>
+<!--youtube end-->
+
+<br><br><br>
+<center><a class="btn btn-lg btn-primary" href="https://www.facebook.com/groups/945330178820575/" target="_blank" role="button" style="width:260px">Join to our Facebook Group</a></center> <br />
+<br><br><br>
+
+<!--sponsors start-->
+    <center>
+    <hr>
+    <h3>Supporters</h3>
+    <br>
+    <a href="http://www.city.semboku.akita.jp/" target="_blank"><img src="img/s_banner_senboku.png" alt="">　</a>　
+    <a href="http://www.cao.go.jp/" target="_blank"><img src="img/s_banner_CabinetOffice.png" alt="">　</a>　
+    <a href="http://uas-japan.org/" target="_blank"><img src="img/s_banner_ju_s.jpg" alt=""></a>　</a>
+    <a href="https://www.aircraft-japan.com/" target="_blank"><img src="img/s_banner_Aircraft_Logo_s.jpg" alt="">　</a>　
+
+
+    <br><br>
+    
+    <img src="img/s_banner_AstroX.png" alt="">
+    <a href="http://ja.catalyst.red/categories/drone" target="_blank"><img src="img/s_banner_Catalyst.png" alt="">　</a>
+　　<a href="http://www.borg.media/" target="_blank"><img src="img/s_banner_clue.jpg" alt="">
+　　<img src="img/D1logo.jpg" alt="">
+    
+    <br><br>
+    
+　　<img src="img/s_banner_FPV-R.png" alt="">　
+　　<a href="http://www.futaba.co.jp/" target="_blank"><img src="img/s_banner_futaba_s.jpg" alt="">
+　　<a href="http://ji-non.com" target="_blank"><img src="img/s_banner_jinon_s.jpg" alt="">　</a>
+    <img src="img/s_banner_KAMA.png" alt="">　　
+
+    
+    <br><br><br><br><br><br>
+    
+    
+    </center>
+<!--sponsors end-->
+
+
+<!--small footer start -->
+    <footer class="footer-small">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-6">
+                 <div class="copyright">
+                  <p>© <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">Drone Impact Challenge, CC BY-SA 4.0</a></p>
+                 </div>
+              </div>
+           </div>
+        </div>
+    </footer>
+<!--small footer end-->
+
+    <!-- js placed at the end of the document so the pages load faster
+<script src="js/jquery.js">
+</script>
+-->
+  <script src="./js/jquery-1.8.3.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/hover-dropdown.js"></script>
+  <script defer src="./js/jquery.flexslider.js"></script>
+  <script type="text/javascript" src="./js/jquery.bxslider.js"></script>
+  <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script src="./js/owl.carousel.js"></script>
+  <script src="./js/jquery.easing.min.js"></script>
+  <script src="./js/link-hover.js"></script>
+  <script src="./js/superfish.js"></script>
+  <script type="text/javascript" src="./js/jquery.cslider.js"></script>
+  <script type="text/javascript">
+      $(function() {
+        $('#da-slider').cslider({
+          autoplay    : true,
+          bgincrement : 100
+        });
+      });
+  </script>
+
+<!--common script for all pages-->
+  <script src="./js/common-scripts.js"></script>
+  <script type="text/javascript">
+      jQuery(document).ready(function() {
+        $('.bxslider1').bxSlider({
+          minSlides: 5,
+          maxSlides: 6,
+          slideWidth: 360,
+          slideMargin: 2,
+          moveSlides: 1,
+          responsive: true,
+          nextSelector: '#slider-next',
+          prevSelector: '#slider-prev',
+          nextText: 'Onward →',
+          prevText: '← Go back'
+        });
+      });
+  </script>
+
+  <script>
+      $('a.info').tooltip();
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide",
+          start: function(slider) {
+            $('body').removeClass('loading');
+          }
+        });
+      });
+      $(document).ready(function() {
+        $("#owl-demo").owlCarousel({
+          items : 4
+        });
+      });
+      jQuery(document).ready(function(){
+        jQuery('ul.superfish').superfish();
+      });
+      new WOW().init();
+    </script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($){
+            $(window).scroll(function() {
+                console.log("asdf");
+                if ($(window).scrollTop() > 100 ){
+                $('.top-header').addClass('shows');
+                } else {
+                $('.top-header').removeClass('shows');
+                };
+            });
+           });
+        jQuery('.scroll').on('click', function(e){
+                e.preventDefault()
+        jQuery('html, body').animate({
+             scrollTop : jQuery(this.hash).offset().top
+        }, 1500);
+        });
+    </script>
+<span id="back-to-top"></i></span>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67533270-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
