@@ -149,10 +149,23 @@ font-size: 50px;
 color:#ff0000;
 }
 
+#Time{
+width:auto;
+margin:auto; 
+}
+
 .sec{
 color:#fff; 
 }
 
+.timetext{
+font-size:20px;
+font-weight:bold;
+color:#555555; 
+margin-right:10px;
+margin:0;
+padding:0;
+}
 
 </style>
 
@@ -175,14 +188,13 @@ var day=Math.floor((this.tl-today)/(24*60*60*1000));
 var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000));
 var min=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*1000))%60;
 var sec=Math.floor(((this.tl-today)%(24*60*60*1000))/1000)%60%60;
-
 var me=this;
 
 if( ( this.tl - today ) > 0 ){
 if (day) timer += '<span class="day">'+day+'DAY　　</span>';
 if (hour) timer += '<span class="hour">'+hour+'HOUR　　 </span>';
 timer += '<span class="min">'+this.addZero(min)+'MIN　　</span><span class="sec">'+this.addZero(sec)+'SEC　　</span><span class="milli">'+this.addZero(milli)+'</span>';
-
+this.elem.innerHTML = timer;
 tid = setTimeout( function(){me.countDown();},10 );
 }else{
 this.elem.innerHTML = this.mes;
