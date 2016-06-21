@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="ドローンの可能性を、みんなの手で広げる場">
+    <meta property="og:image" content="./img/dicc.jpg">
+    <meta property="og:description" content="ドローンの可能性を、みんなの手で広げる場">
+
+  <title>Drone Impact Challenge</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/theme.css" rel="stylesheet">
+    <link href="./css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="./css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/style-responsive.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/rrssb.css" />
+    <link rel="SHORTCUT ICON" href="img/favicon.ico">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+  <script type="text/javascript" src="./js/main.js" charset="UTF-8"></script></head>
+
+  <body>
+<!--   Fixed Navigation   ==================================== -->
+  <header id="navigation" class="navbar-fixed-top navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+                    <!-- /responsive nav button -->
+
+                    <!-- logo -->
+                    <a class="navbar-brand" href="index.html">
+                       <div id="logo">
+                       Drone Impact Challenge<br>
+                       </div>
+                    </a>
+                    <!-- /logo -->
+                </div>
+                <!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li class="not_current"><a href="https://www.facebook.com/groups/945330178820575/"><img src="img/fb_icon_20x20.png"></a></li>
+                        <li class="not_current"><a href="./concept_jp.html">about</a></li>
+                        <li class="not_current"><a href="http://peatix.com/event/177249/published">entry</a></li>
+                        <li class="not_current"><a href="./rules_jp.html">regulations</a></li>
+                        <li class="not_current"><a href="./news_jp.html">media</a></li>
+                        <li class="not_current"><a href="./supporters_jp.html">sponsors</a></li>
+                        <li class="not_current"><a href="./contact_jp.html">contact</a></li>
+                    </ul>
+                    <span class="language"><a href="index.html" class="language_on">日本語</a>&nbsp |&nbsp <a href="index_en.html"  class="language_off">EN</a></span>
+                </nav>
+                <!-- /main nav -->
+            </div>
+        </header>
+<!--   Fixed Navigation   ==================================== -->
+
+<!--container start-->
+                
+<!-- summary -->
+    <div class="container privacy-terms">
+      <center>
+        <h2>アクセス</h2>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69425.54454928362!2d140.75789395186015!3d39.73505510153576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8562122aa7f9af%3A0xaa86991045931cf3!2z44Ob44OG44Or5qOu44Gu6aKoIOeUsOayoua5lg!5e0!3m2!1sja!2sjp!4v1466511097502" width="1200" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <br><br>
+        <H4><b>Drone Inpact Challenge　ASIA CUP2016 </H4></b><br>
+        <H5>82-117 Shimo-Takano, Tazawako-Obonai, Semboku-shi, Akita, Japan<a href="http://www.hotel-tazawa.com" style="color:#F60909;">HOTEL MORI NO KAXE TAZAWA-KO</a> Golf Course</H5>
+        <br>
+        </center>
+
+    </div>
+    
+    
+
+    
+    <br><br><br>
+    
+<!--property end-->
+
+
+<br><br><br>
+
+<!--container end-->
+
+
+
+
+
+
+<!--small footer start -->
+    <footer class="footer-small">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-6">
+                 <div class="copyright">
+                  <p>© <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">Drone Impact Challenge, CC BY-SA 4.0</a></p>
+                 </div>
+              </div>
+           </div>
+        </div>
+    </footer>
+<!--small footer end-->
+
+    <!-- js placed at the end of the document so the pages load faster
+<script src="js/jquery.js">
+</script>
+-->
+  <script src="./js/jquery-1.8.3.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/hover-dropdown.js"></script>
+  <script defer src="./js/jquery.flexslider.js"></script>
+  <script type="text/javascript" src="./js/jquery.bxslider.js"></script>
+  <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script src="./js/owl.carousel.js"></script>
+  <script src="./js/jquery.easing.min.js"></script>
+  <script src="./js/link-hover.js"></script>
+  <script src="./js/superfish.js"></script>
+  <script type="text/javascript" src="./js/jquery.cslider.js"></script>
+  <script type="text/javascript">
+      $(function() {
+        $('#da-slider').cslider({
+          autoplay    : true,
+          bgincrement : 100
+        });
+      });
+  </script>
+
+<!--common script for all pages-->
+  <script src="./js/common-scripts.js"></script>
+  <script type="text/javascript">
+      jQuery(document).ready(function() {
+        $('.bxslider1').bxSlider({
+          minSlides: 5,
+          maxSlides: 6,
+          slideWidth: 360,
+          slideMargin: 2,
+          moveSlides: 1,
+          responsive: true,
+          nextSelector: '#slider-next',
+          prevSelector: '#slider-prev',
+          nextText: 'Onward →',
+          prevText: '← Go back'
+        });
+      });
+  </script>
+
+  <script>
+      $('a.info').tooltip();
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide",
+          start: function(slider) {
+            $('body').removeClass('loading');
+          }
+        });
+      });
+      $(document).ready(function() {
+        $("#owl-demo").owlCarousel({
+          items : 4
+        });
+      });
+      jQuery(document).ready(function(){
+        jQuery('ul.superfish').superfish();
+      });
+      new WOW().init();
+    </script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($){
+            $(window).scroll(function() {
+                console.log("asdf");
+                if ($(window).scrollTop() > 100 ){
+                $('.top-header').addClass('shows');
+                } else {
+                $('.top-header').removeClass('shows');
+                };
+            });
+           });
+        jQuery('.scroll').on('click', function(e){
+                e.preventDefault()
+        jQuery('html, body').animate({
+             scrollTop : jQuery(this.hash).offset().top
+        }, 1500);
+        });
+    </script>
+<span id="back-to-top"></i></span>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67533270-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
