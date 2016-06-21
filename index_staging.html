@@ -8,25 +8,6 @@
     <meta name="description" content="ドローンの可能性を、みんなの手で広げる場">
     <meta property="og:image" content="./img/dicc.jpg">
     <meta property="og:description" content="ドローンの可能性を、みんなの手で広げる場">
-<style>
-.youtube{
-    position:relative;
-    padding-bottom: 50%;
-    padding-top:10px;
-    height:0;
-    overflow:hidden;
-}
-.youtube iframe{
-    position:absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-margin: auto;
-    width:60%;
-    height:90%;
-}
-</style>
 
   <title>Drone Impact Challenge</title>
 
@@ -38,8 +19,6 @@ margin: auto;
     <link href="./css/font-awesome.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/animate.css">
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-
-
 
     <!-- Custom styles for this template -->
     <link href="./css/style.css" rel="stylesheet">
@@ -93,151 +72,7 @@ margin: auto;
 <!--   Fixed Navigation   ==================================== -->
 
 <!--container start-->
-
-<div class="banner">
-<p style="position: relative;">
-   <img src="img/english_TOP DIC ASIA CUP 2016_out.jpg"><br>
-   <span style="position: absolute; top: 65%; left: 45%;">
-   </span>
-</p>
-</div>
-
-<br>
                 
-<style type="text/css">
-.wrap{
-width:auto;
-margin-left:auto;
-margin-right:auto;
-padding:auto;
-border:solid 0px #000;
-margin-bottom:auto;
-}
-.clearfix:after {
-content: "."; 
-display: block;
-clear: both;
-height: 0;
-visibility: hidden;
-}
-
-.clearfix {
-min-height: 1px;
-}
-
-* html .clearfix {
-height: 1px;
-/*¥*//*/
-height: auto;
-overflow: hidden;
-/**/
-}
-#CDT{
-font-size: 30px;
-color:#000;
-font-weight:bold;
-border-radius:15px;
-text-shadow:#FFF 1px 1px;
-margin-right:20px;
-}
-#CDT .day{
-font-size: 30px;
-color:#000;
-}
-#CDT .hour,#CDT .min,#CDT .sec{
-font-size: 30px;
-color:#000;
-}
-
-#Time{
-width:auto;
-margin:auto; 
-}
-
-.sec{
-color:#fff; 
-}
-
-.timetext{
-font-size:20px;
-font-weight:bold;
-color:#555555; 
-margin-right:10px;
-margin:0;
-padding:0;
-}
-
-</style>
-
-<center>
-<div class="wrap clearfix">
-<p class="timetext" id="text"></p><div id="CDT"></div>
-<script type="text/javascript">
-function CountdownTimer(elm,tl,mes){
-this.initialize.apply(this,arguments);
-}
-CountdownTimer.prototype={
-initialize:function(elm,tl,mes) {
-this.elem = document.getElementById(elm);
-this.tl = tl;
-this.mes = mes;
-},countDown:function(){
-var timer='';
-var today=new Date();
-var day=Math.floor((this.tl-today)/(24*60*60*1000));
-var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000));
-var min=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*1000))%60;
-var sec=Math.floor(((this.tl-today)%(24*60*60*1000))/1000)%60%60;
-var milli=Math.floor(((this.tl-today)%(24*60*60*1000))/10)%100;
-var me=this;
-
-if( ( this.tl - today ) > 0 ){
-if (day) timer += '<span class="day">'+day+'DAY　　</span>';
-if (hour) timer += '<span class="hour">'+hour+'HOUR　　 </span>';
-timer += '<span class="min">'+this.addZero(min)+'MIN　　</span><span class="sec">'+this.addZero(sec)+'SEC　　</span><span class="milli">'+this.addZero(milli)+'</span>';
-this.elem.innerHTML = timer;
-tid = setTimeout( function(){me.countDown();},10 );
-}else{
-this.elem.innerHTML = this.mes;
-return;
-}
-},addZero:function(num){ return ('0'+num).slice(-2); }
-}
-
-function CDT(){
-var day = new Date();
-var saleday = new Date('2016/07/29 10:00:00');//イベント開始日時を入力
-if((saleday - day) > 0) {
-var text = '';//イベントが開始されるまでの文言を入力
-var tl = new Date('2016/07/29 10:00:00');//イベント開始日時を入力
-var timer = new CountdownTimer('CDT',tl);
-timer.countDown();
-target = document.getElementById("text");
-target.innerHTML = text;
-}else{
-var text = 'Drone Impact Challenge Now On! : ';//イベントが終了されるまでの文言を入力
-var tl = new Date('2016/07/31 18:00:00');//イベント終了日時を入力
-var timer = new CountdownTimer('CDT',tl,'Thank You. ！');//イベント終了後の文言を入力
-timer.countDown();
-target = document.getElementById("text");
-target.innerHTML = text;
-}
-}
-
-window.onload=function(){
-CDT();
-}
-</script></div>
-<!--カウントダウン-->
-
-<div class="banner">
-<p style="position: relative;">
-   <img src="img/drone_1.jpg"><br>
-   <span style="position: absolute; top: 65%; left: 45%;">
-   </span>
-</p>
-</div>
-
 <!-- summary -->
     <div class="container privacy-terms">
      <h1><a style="color:#0a0;">“Drone Impact Challenge ASIA CUP 2016”</a></h1>
