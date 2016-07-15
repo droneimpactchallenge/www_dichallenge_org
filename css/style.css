@@ -12,27 +12,21 @@ body {
     margin: 0px !important;
     font-size: 14px;
 }
-{
-  margin: 0;
-  padding: 0;
-/*  IE8以下の代替の背景画像  */
-  background: url(http://mattgrossdesign.com/raw-media/first-frame-screencap.jpg) #333;
-  background-attachment: fixed;
-  background-size: cover;
-}
- 
-#video-background {
-/*  動画を背景に設定するスタイルシート  */
-  position: fixed;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: auto;
-  z-index: -100;
-}
 
+video {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+p {
+  font-family: serif;         
+  color: #fff;
+  font-size: 400%;
+  margin: 50px;
+  position: relative;
+  z-index: 2;
+}
 
 a,
 a:hover,
