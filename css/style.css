@@ -13,21 +13,6 @@ body {
     font-size: 14px;
 }
 
-video {
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-p {
-  font-family: serif;         
-  color: #fff;
-  font-size: 400%;
-  margin: 50px;
-  position: relative;
-  z-index: 2;
-}
-
 a,
 a:hover,
 a:focus {
