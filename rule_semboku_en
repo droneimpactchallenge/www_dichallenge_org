@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="ドローンの可能性を、みんなの手で広げる場">
+    <meta property="og:image" content="./img/dichallenge_entry.png">
+    <meta property="og:description" content="ドローンの可能性を、みんなの手で広げる場">
+    <link rel="shortcut icon" href="./favicon.ico">
+
+  <title>ドローン・インパクトチャレンジ//競技コース、ルール</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/theme.css" rel="stylesheet">
+    <link href="./css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="./css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/flexslider.css"/>
+    <link href="./css/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+
+      <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/style-responsive.css" rel="stylesheet" />
+		<link rel="SHORTCUT ICON" href="img/favicon.ico">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  <script type="text/javascript" src="./js/main.js" charset="UTF-8"></script></head>
+
+  <body  oncontextmenu="return false;">
+    <!--
+        Fixed Navigation
+        ==================================== -->
+  <header id="navigation" class="navbar-fixed-top navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+                    <!-- /responsive nav button -->
+
+                    <!-- logo -->
+                    <a class="navbar-brand" href="index.html">
+                       
+                       <img src="img/DIC_Brand_Logo_S_WHITE.png"><br>
+                       
+                    </a>
+                    <!-- /logo -->
+                </div>
+                <!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                  <br>
+                    <ul id="nav" class="nav navbar-nav">
+                      <li class="not_current"><a href="https://www.youtube.com/channel/UCGBvcLMsCqkgxtdx7iIn30A/"><img src="img/YouTube-social-squircle_red_24px.png" alt="youtube" width="20" height="20"></a></li>
+                        <li class="not_current"><a href="https://www.facebook.com/groups/945330178820575/"><img src="img/fb_icon_20x20.png"></a></li>
+                        <li class="not_current"><a href="./concept_jp.html">about</a></li>
+                        <li class="not_current"><a href="http://peatix.com/event/185389/published">entry</a></li>
+                        <li class="not_current"><a href="./program.html">program</a></li>
+                        <li class="not_current"><a href="./rule_semboku.html">course&rule</a></li>
+                        <li class="not_current"><a href="./regulation_semboku.html">regulation</a></li>
+                        <li class="not_current"><a href="./news_jp.html">news</a></li>
+                        <li class="not_current"><a href="./access.html">access</a></li>
+                        <li class="not_current"><a href="./contact_jp.html">contact</a></li>
+                    </ul>
+                    <span class="language"><a href="index.html" class="language_on">日本語</a>&nbsp |&nbsp <a href="index_en.html"  class="language_off">EN</a></span>
+                </nav>
+                <!-- /main nav -->
+            </div>
+        </header>
+
+        <!-- privacy -->
+    <div class="container privacy-terms">
+        <div class="row">
+            <div class="col-md-12">
+
+                <ul class="wow fadeInUp member_produce">
+
+<!--reg start-->
+<hr>
+<h3>Invited overseas pilots</h3><br>
+<h3><strong>Drone Impact Challenge ASIA CUP 2016 Ver.4</strong></h3>
+<br><br>
+<h4>Notes on battery from the airplane company
+If the lithium content is more than 2g, or if the watt-hour rating the amount is more than 160Wh becoming not bring in-flight.
+</h4>
+
+<br>
+<br>
+<br>
+
+<h2><strong>All Pilot</strong></h2>
+<br>
+<h4>
+<ul>
+<li>The pilot, always participate in that briefing, which will be held in 30 days morning.</li>
+<li>aircraft capable of undergoing an airframe inspection, and until the two aircraft. As a result of a malfunction or failure, when they go you need to use the three aircraft or more of the aircraft, there is a need to undergo inspection at promptly tournament headquarters.</li>
+<li>for battery replacement at the time of the test flight, landed the aircraft in a safe place, to exchange in the area of the convention, organizers were determined. Do not turn on the power until there is a consent of the Marshall and third-party pilot.</li>
+<li>At the time of the competition flight, a third party should not put the aircraft power supply and VTX power.</li>
+<li>In the unlikely event that there is a need to turn on the power, putting the power with the consent to all Marshall and competition pilot.</li>
+</h4>
+</ul>
+
+<br><br><br>
+
+<h2><strong>1.Master class</strong></h2>
+<br>
+<h4>
+<img src="img/semboku_master.jpg" alt="" align="right">
+<br>
+<strong>●July 30 (Saturday)</strong>
+<br>
+<br>
+<ul>
+<li>Qualifying round</li>
+<li>Attack Wrap method: 1 fastest lap of laps<li>
+<li>Flight time limit: as long as it is within a 5-minute time limit, can be any number of laps</li>
+<li>Start by 3 machine</li>
+<li>After a flight, time measurement start than at the start gate pass</li>
+<li>Qualifying the top about 10 people advance to the Main Draw</li>
+<li>Aircraft changes and parts changes during the competition is allowed. However, at the time of the aircraft inspection, multiple machine</li>
+<li>Need for a pre-registration.</li>
+<li>Penalty in the case of the shortcut and the gate non-passage of the flag, the goal It adds 5 seconds each after a time.</li>
+<li>The above mentioned method may be changed forced on the number of participants and progress of convenience.</li>
+</ul>
+<br>
+<br>
+<strong>●July 31 (Sunday)</strong>
+<br><br>
+<ul>
+<li>Finals　Tournament system</li>
+<li>And the semi-finals by qualifying superiors.</li>
+<li>After-by multiple machine 1 group, 3 laps round. The top person and finals.</li>
+<li>Finals, Start 3 laps at multiple machines at a higher person of each group.</li>
+<li>Penalty in the case of the shortcut and the gate non-passage of the flag, and adds 5 seconds each in the time after the goal.</li>
+<li>If you happen to crash into the semi-finals and during the competition's final, return on their own flight. Unless it will be retired at that point in time, at the disarmed state until the end of the competition .It is waiting.</li>
+<li>The top three people winning.</li>
+<li>The above mentioned method may be changed forced on the number of participants and progress of convenience.</li>
+</ul>
+
+<br>
+<br>
+<br>
+
+<h2><strong>2.Wing class</strong></h2>
+<br>
+<h4>
+<img src="img/semboku_wing.jpg" alt="" align="right">
+<br>
+<strong>●July 30 (Saturday)</strong>
+<br>
+<br>
+<ul>
+<li>Attack Wrap method: 1 fastest lap of laps</li>
+<li>Flight time limit: as long as it is within a 5-minute time limit, can be any number of laps</li>
+<li>Start by 2 machine</li>
+<li>After a flight, time measurement start than at the start gate pass</li>
+<li>Aircraft changes and parts changes during the competition is allowed. However, at the time of the aircraft inspection, multiple machine</li>
+<li>Need for a pre-registration.</li>
+<li>Penalty, when out of the prescribed course, adds 5 seconds each time.</li>
+<li>The above mentioned method may be changed forced on the number of participants and progress of convenience.</li>
+</ul>
+
+<br>
+<br>
+<br>
+
+
+<h2><strong>3.Freestyle class</strong></h2>
+<br>
+<h4>
+<img src="img/semboku_freeS.jpg" alt="" align="right">
+<br>
+<strong>●July 31 (Sunday)</strong>
+<br>
+<br>
+<ul>
+<li>Free flight</li>
+<li>Must fly FPV</li>
+<li>All judging via FPV</li>
+<li>Flight time limit: 2 minutes BGM pre-submission (file format, mp4 or CD)</li>
+<li>Flight by 1 machine</li>
+<li>Point examination by the jury　5 Judges</li>
+<li>Three Judgement Categories:　Difficulty, Style/Flow, Use of Course/Obstacles </li>
+<li>Each category scored 0-5 for a total of 15 maximum points per judge, 75 maximum points for all three judges</li>
+<li>No qualifying, the main race only.</li>
+<li>After a flight, time measurement start than at the start gate pass</li>
+<li>Aircraft changes and parts changes during the competition is allowed. However, at the time of the aircraft inspection, multiple machine.　Need for a pre-registration.</li>
+<li>The above mentioned method may be changed forced on the number of participants and progress of convenience.</li>
+</ul>
+<br>
+<br>
+<br>
+
+
+<h2><strong>Racing competition structure</strong></h2>
+<br>
+<h4>
+<br>
+<br>
+<br>
+<ul>
+<li>It is recommended that the competitions use the following structure, although individual events may elect to use a different structure.</li>
+<li>Practice: Pilots may practice at the designated practice fields before the event. Practice runs may be timed and may be used for qualifier seeding.</li>
+<li>Qualifiers: Competitions may include one or more rounds of qualifiers, with either seeding or advancement as a result of best single lap time or best complete race time.</li>
+<li>Mains: Competitions may include one or more rounds of main heats, with best complete race time, finishing order or a points-based system based on finishing order deciding advancement to finals.</li>　
+<li>Finals: Pilots who advance from the mains compete in finals, with best complete race time, finishing order or a points-based system based on finishing order deciding final results.</li>
+</ul>
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+
+
+<!--reg end-->
+
+
+                <br> <br> <br>
+            </div>
+        </div>
+
+    </div>
+    <!--container end-->
+
+
+         <!--small footer start -->
+    <footer class="footer-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <div class="copyright">
+                    <p>© <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">Drone Impact Challenge, CC BY-SA 4.0</a></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+  </footer>
+    <!--small footer end-->
+
+  <!-- js placed at the end of the document so the pages load faster -->
+  <script src="./js/jquery.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/hover-dropdown.js"></script>
+  <script defer src="./js/jquery.flexslider.js"></script>
+  <script type="text/javascript" src="./js/jquery.bxslider.js"></script>
+  <script src="./js/jquery.easing.min.js"></script>
+  <script src="./js/link-hover.js"></script>
+  <!--common script for all pages-->
+  <script src="./js/common-scripts.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script>
+    wow = new WOW(
+            {
+              boxClass:     'wow',      // default
+              animateClass: 'animated', // default
+              offset:       0          // default
+            }
+          )
+          wow.init();
+  </script>
+  <span id="back-to-top">
+    </i>
+  </span>
+  <script src="./js/backTotop.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67533270-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
