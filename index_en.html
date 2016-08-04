@@ -427,67 +427,7 @@ padding:0;
 
 </style>
 
-<!--カウントダウン-->
-<center>
-<div class="wrap clearfix">
-<p class="timetext" id="text"></p><div id="CDT"></div>
-<script type="text/javascript">
-function CountdownTimer(elm,tl,mes){
-this.initialize.apply(this,arguments);
-}
-CountdownTimer.prototype={
-initialize:function(elm,tl,mes) {
-this.elem = document.getElementById(elm);
-this.tl = tl;
-this.mes = mes;
-},countDown:function(){
-var timer='';
-var today=new Date();
-var day=Math.floor((this.tl-today)/(24*60*60*1000));
-var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000));
-var min=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*1000))%60;
-var sec=Math.floor(((this.tl-today)%(24*60*60*1000))/1000)%60%60;
-var milli=Math.floor(((this.tl-today)%(24*60*60*1000))/10)%100;
-var me=this;
 
-if( ( this.tl - today ) > 0 ){
-if (day) timer += '<span class="day">'+day+'DAY　　</span>';
-if (hour) timer += '<span class="hour">'+hour+'HOUR　　 </span>';
-timer += '<span class="min">'+this.addZero(min)+'MIN　　</span><span class="sec">'+this.addZero(sec)+'SEC　　</span><span class="milli">'+this.addZero(milli)+'</span>';
-this.elem.innerHTML = timer;
-tid = setTimeout( function(){me.countDown();},10 );
-}else{
-this.elem.innerHTML = this.mes;
-return;
-}
-},addZero:function(num){ return ('0'+num).slice(-2); }
-}
-
-function CDT(){
-var day = new Date();
-var saleday = new Date('2016/07/29 10:00:00');//イベント開始日時を入力
-if((saleday - day) > 0) {
-var text = '';//イベントが開始されるまでの文言を入力
-var tl = new Date('2016/07/29 10:00:00');//イベント開始日時を入力
-var timer = new CountdownTimer('CDT',tl);
-timer.countDown();
-target = document.getElementById("text");
-target.innerHTML = text;
-}else{
-var text = 'Drone Impact Challenge Now On! : ';//イベントが終了されるまでの文言を入力
-var tl = new Date('2016/07/31 18:00:00');//イベント終了日時を入力
-var timer = new CountdownTimer('CDT',tl,'Thank You. ！');//イベント終了後の文言を入力
-timer.countDown();
-target = document.getElementById("text");
-target.innerHTML = text;
-}
-}
-
-window.onload=function(){
-CDT();
-}
-</script></div>
-<!--カウントダウン-->
 
 
 <br><br><br><br><br>
