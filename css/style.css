@@ -2990,3 +2990,135 @@ div.header h3{
 
 	position:inherit;}
 
+/*20190528追記*/
+  body .yycountdown-box {
+    text-align: center;
+    padding: 3% 0;
+    color: #111;
+    position: relative; }
+  body #event .logo {
+    width: 10%;
+    margin: 0 auto;
+    padding: 13% 0 3%; }
+    body #event .logo img {
+      width: 100%; }
+  body #timer .yycountdown-box .yyc-day {
+    font-size: 6vw;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    color: #111;
+    width: 8%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 28.5%; }
+  body #timer .yycountdown-box .yyc-hou {
+    font-size: 6vw;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    color: #111;
+    width: 8%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 38.5%; }
+  body #timer .yycountdown-box .yyc-min {
+    font-size: 6vw;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    color: #111;
+    width: 8%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 51%; }
+  body #timer .yycountdown-box .yyc-sec {
+    font-size: 6vw;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    color: #111;
+    width: 8%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 63.5%; }
+  body #timer .yycountdown-box .yyc-day-text {
+    font-size: 1.2vw;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 8%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 110%;
+    left: 28.5%; }
+  body #timer .yycountdown-box .yyc-hou-text {
+    font-size: 1.2vw;
+    width: 8%;
+    display: inline-block;
+    text-align: center;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    top: 110%;
+    left: 38.5%; }
+  body #timer .yycountdown-box .yyc-min-text {
+    font-size: 1.2vw;
+    width: 8%;
+    display: inline-block;
+    text-align: center;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    top: 110%;
+    left: 51%; }
+  body #timer .yycountdown-box .yyc-sec-text {
+    font-size: 1.2vw;
+    width: 8%;
+    display: inline-block;
+    text-align: center;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    top: 110%;
+    left: 63.5%; }
+  body #eventDate {
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 5% 0;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 400; }
+
+body.lp {
+  width: 100%;
+  margin: 0 auto; }
+  body.lp main .image {
+    width: 100%; }
+    body.lp main .image img {
+      width: 100%; }
+  body.lp main .image_02 {
+    width: 70%;
+    margin: 0 auto;
+    padding: 1% 0; }
+    body.lp main .image_02 img {
+      width: 100%; }
+
+
+
