@@ -39,6 +39,10 @@ p { line-height: 22px }
 .col-md-12 a:hover {
 	color:#666666;
 }
+
+li {
+    list-style:  none;
+}
 /*=========================================
 	Header
 ==========================================*/
@@ -144,13 +148,22 @@ nav {
     margin-left: 10px;
 }
 /*homepage features*/
+.col-md-12 h1 {
+    border-bottom:  3px solid #ddd;
+    padding: 3% 0;
+}
+
 .col-md-12 h4{
 	line-height:150%;
+    font-size:  1.2vw;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .col-md-12 a{
 	color: #475B6F;
 	font-weight:bold;
+    font-size:  3vw;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .feature-head { padding: 10px 0 }
 .feature-head h1 {
@@ -1291,11 +1304,22 @@ ul.tag li a {
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
+
+.col-md-6 {
+    width:  100%;
+}
+
+
 .copyright {
     color: #fff;
 	padding-top:15px;
 	font-size:0.9em;
 }
+
+.copyright p {
+    text-align: center;
+}
+
 .page-footer { padding: 0% 13% }
 .page-footer h1 { padding-left: 4% }
 ul.page-footer-list {
@@ -1309,7 +1333,7 @@ ul.page-footer-list li {
 ul.page-footer-list a { color: #fff }
 ul.page-footer-list li i { padding-right: 10px }
 .footer-small {
-    background-color: #000000;
+    background-color: #bfbfbf;
     margin-top: -6px;
     padding-top: 5px;
 }
@@ -3003,7 +3027,7 @@ div.header h3{
   body #event .logo {
     width: 10%;
     margin: 0 auto;
-    padding: 15% 0 3%; }
+    padding: 17% 0 3%; }
     @media screen and (max-width: 768px) {
       body #event .logo {
         width:  20%;
