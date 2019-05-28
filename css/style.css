@@ -2999,7 +2999,11 @@ div.header h3{
   body #event .logo {
     width: 10%;
     margin: 0 auto;
-    padding: 13% 0 3%; }
+    padding: 17% 0 3%; }
+    @media screen and (max-width: 768px) {
+      body #event .logo {
+        width:  20%;
+        padding: 30% 0 3%; } }
     body #event .logo img {
       width: 100%; }
   body #timer .yycountdown-box .yyc-day {
@@ -3101,7 +3105,7 @@ div.header h3{
   body #eventDate {
     font-size: 1.5vw;
     text-align: center;
-    padding: 5% 0;
+    padding: 5% 0 20%;
     font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 400; }
