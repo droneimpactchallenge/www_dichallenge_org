@@ -59,20 +59,24 @@ li {
     transition: background-color 800ms linear;
 }
 
-.navbar-header {
-    width:  10%;
-}
 
 .navbar-toggle i { color: #fff; }
+
+.logo_new {
+    width:  25%;
+}
+
+.logo_new img {
+    width:  100%;
+}
 
 .navbar-brand {
   color: #fff;
   padding: 0;
+  display: block;
+  width:  100%;
 }
 
-.navbar-brand img {
-    width:  100%;
-}
 
 nav {
     line-height:  5px;
