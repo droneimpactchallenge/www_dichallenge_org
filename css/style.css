@@ -59,15 +59,27 @@ li {
     transition: background-color 800ms linear;
 }
 
+.navbar-header {
+    width:  10%;
+}
+
 .navbar-toggle i { color: #fff; }
 
 .navbar-brand {
-  padding:14px;
   color: #fff;
+  padding: 0;
+}
+
+.navbar-brand img {
+    width:  100%;
 }
 
 nav {
-    line-height:  15px;
+    line-height:  5px;
+}
+
+.navbar-nav li a {
+    line-height:  50px;
 }
 
 .nav li a:hover {
