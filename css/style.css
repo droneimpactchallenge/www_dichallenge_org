@@ -62,6 +62,9 @@ li {
 .navbar-header {
     width:  10%;
 }
+@media screen and (max-width: 768px) {
+.navbar-header {
+width:  8vw; } }
 
 .navbar-toggle i { color: #fff; }
 
