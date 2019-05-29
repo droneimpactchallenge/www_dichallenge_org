@@ -178,7 +178,6 @@ nav {
 
 .col-md-12 a{
 	color: #475B6F;
-	font-weight:bold;
     font-size:  3vw;
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -1330,7 +1329,7 @@ ul.tag li a {
 .copyright {
     color: #fff;
 	padding-top:15px;
-	font-size:0.9em;
+	font-size:0.8em;
 }
 
 .copyright p {
@@ -1338,7 +1337,7 @@ ul.tag li a {
 }
 
 .copyright p a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .page-footer { padding: 0% 13% }
@@ -2429,9 +2428,9 @@ span.filter {
 .privacy-terms h3 {color:#475B6F}
 .privacy-terms h3,
 p { text-align: left;}
-.privacy-terms ul{
+/* .privacy-terms ul{
     padding-left: 40px;
-	}
+	} */
 .privacy-terms ul li{
     margin-bottom: 10px;
 	}
@@ -3172,6 +3171,45 @@ body.lp {
     padding: 1% 0; }
     body.lp main .image_02 img {
       width: 100%; }
+
+
+      .col-md-12 h1 {
+        text-align:  center;
+        font-family: 'Roboto', sans-serif;
+      }
+      .col-md-12 .link {
+        padding: 3%;
+        font-family: 'Noto Sans JP', sans-serif;
+      }
+      .col-md-12 .link li a {
+        font-size:  1vw;
+        font-family: 'Noto Sans JP', sans-serif;
+        color:  #4d4d4d;
+      }
+      .col-md-12 .address {
+        border:  1px solid #ddd;
+        background-color: #f0f0f0;
+        margin-bottom: 6%;
+        padding: 3%;
+        text-align:  center;
+      }
+      .col-md-12 .address .text {
+        border:  1px solid #ddd;
+        width:  20%;
+        margin: 0 auto;
+        padding: 1% 0;
+      }
+      .col-md-12 .address p {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight:  bold;
+        font-size: 2.1rem;
+        color:  #111;
+      }
+      .col-md-12 .address span {
+        display: block;
+        font-family: 'Noto Sans JP', sans-serif;
+      }
 
 
 
