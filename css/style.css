@@ -80,6 +80,7 @@ nav {
 
 .navbar-nav li a {
     line-height:  50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .nav li a:hover {
@@ -1330,6 +1331,10 @@ ul.tag li a {
 
 .copyright p {
     text-align: center;
+}
+
+.copyright p a {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .page-footer { padding: 0% 13% }
@@ -3039,7 +3044,7 @@ div.header h3{
   body #event .logo {
     width: 10%;
     margin: 0 auto;
-    padding: 17% 0 3%; }
+    padding: 16% 0 3%; }
     @media screen and (max-width: 768px) {
       body #event .logo {
         width:  20%;
