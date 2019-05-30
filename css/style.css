@@ -3141,7 +3141,8 @@ div.header h3{
       body #timer .yycountdown-box .yyc-day-text {
       top: 200%;
       width:  15%;
-      left: 18.5%; } }
+      left: 18.5%;
+	font-size: 3.2vw;} }
   body #timer .yycountdown-box .yyc-hou-text {
     font-size: 1.2vw;
     width: 8%;
@@ -3157,7 +3158,8 @@ div.header h3{
       body #timer .yycountdown-box .yyc-hou-text {
       top: 200%;
       width:  15%;
-      left: 31.5% } }
+      left: 31.5%;
+	font-size: 3.2vw;} }
   body #timer .yycountdown-box .yyc-min-text {
     font-size: 1.2vw;
     width: 8%;
@@ -3173,7 +3175,8 @@ div.header h3{
       body #timer .yycountdown-box .yyc-min-text {
       top: 200%;
       width:  15%;
-      left: 48%; } }
+      left: 48%;
+	font-size: 3.2vw;} }
   body #timer .yycountdown-box .yyc-sec-text {
     font-size: 1.2vw;
     width: 8%;
@@ -3189,7 +3192,8 @@ div.header h3{
       body #timer .yycountdown-box .yyc-sec-text {
       top: 200%;
       width:  15%;
-      left: 65.5%; } }
+      left: 65.5%;
+	font-size: 3.2vw;} }
   body #eventDate {
     font-size: 1.5vw;
     text-align: center;
