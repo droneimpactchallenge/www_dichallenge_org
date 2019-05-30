@@ -2451,16 +2451,16 @@ span.filter {
 .privacy-terms h3,
 p { text-align: left;
 font-family: 'Noto Sans JP', sans-serif;
-font-size: 2rem;}
+font-size: 1.4rem;}
 /* .privacy-terms ul{
     padding-left: 40px;
 	} */
 .privacy-terms ul li{
-    padding-left: 4%;
+    padding-left: 9%;
     margin-bottom: 10px;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight:  lighter;
-    font-size: 2rem;
+    font-size: 1.4rem;
 	}
 @media screen and (max-width: 425px) {
   .privacy-terms ul li {
@@ -3262,7 +3262,7 @@ body.lp {
     padding-top:  3%;
   }
   .col-md-12 .link li a {
-    font-size:  2rem;
+    font-size:  1.4rem;
     font-family: 'Noto Sans JP', sans-serif;
     color:  #111;
     -webkit-transition: all .3s;
@@ -3281,24 +3281,25 @@ body.lp {
     text-align:  center;
   }
   .col-md-12 .address .text {
-    width:  60%;
+    width:  80%;
     margin: 0 auto;
-    padding: 1% 0;
   }
   .col-md-12 .address p {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 2.1rem;
     color:  #111;
+    padding-bottom:  2%;
   }
   .col-md-12 .address span {
     display: block;
     font-family: 'Noto Sans JP', sans-serif;
+    padding-bottom:  2%;
   }
 
 /* =====concept===== */
 .member_produce p {
-    padding: 0 0 3% 2%;
+    padding: 0 0 3% 7%;
 }
 @media screen and (max-width: 425px) {
   .member_produce p {
