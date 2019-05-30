@@ -65,6 +65,9 @@ li {
 .navbar-toggle {
     padding: 3% 0 0 3%;
 }
+@media screen and (max-width: 425px) {
+  .navbar-toggle{
+    padding: 0 0 0 3%;} }
 @media screen and (max-width: 320px) {
   .navbar-toggle{
     padding: 2% 0 0 3%;} }
@@ -84,15 +87,22 @@ li {
 }
 @media screen and (max-width: 425px) {
   .logo_new {
-    padding: 2% 0 0 6%;} }
+    padding: 0 0 0 6%;} }
 @media screen and (max-width: 320px) {
   .logo_new {
-    padding: 0 0 0 6%;} }
+    padding: 1% 0 0 6%;} }
 
 
 .logo_new img {
     width:  100%;
 }
+@media screen and (max-width: 425px) {
+  .logo_new img {
+    padding: 0 0 0 6%;
+    padding-bottom: 5%;} }
+@media screen and (max-width: 425px) {
+  .logo_new img {
+    padding-bottom: 8%;} }
 
 .navbar-brand {
   color: #fff;
