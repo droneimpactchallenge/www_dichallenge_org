@@ -68,9 +68,7 @@ li {
 @media screen and (max-width: 425px) {
   .navbar-toggle{
     padding: 0 0 0 3%;} }
-@media screen and (max-width: 320px) {
-  .navbar-toggle{
-    padding: 2% 0 0 3%;} }
+
 
 .navbar-toggle i { color: #fff; }
 
