@@ -84,7 +84,7 @@ nav {
 
 .navbar-nav li a {
     line-height:  50px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav li a:hover {
@@ -3067,6 +3067,11 @@ div.header h3{
     position: absolute;
     top: 0;
     left: 28.5%; }
+    @media screen and (max-width: 425px) {
+      body #timer .yycountdown-box .yyc-day {
+      font-size: 11vw;
+      width:  15%;
+      left: 18.5%; } }
   body #timer .yycountdown-box .yyc-hou {
     font-size: 6vw;
     font-family: futura-pt-bold, sans-serif;
@@ -3080,6 +3085,11 @@ div.header h3{
     position: absolute;
     top: 0;
     left: 38.5%; }
+    @media screen and (max-width: 425px) {
+      body #timer .yycountdown-box .yyc-hou {
+      font-size: 11vw;
+      width:  15%;
+      left: 31.5%; } }
   body #timer .yycountdown-box .yyc-min {
     font-size: 6vw;
     font-family: futura-pt-bold, sans-serif;
@@ -3093,6 +3103,11 @@ div.header h3{
     position: absolute;
     top: 0;
     left: 51%; }
+    @media screen and (max-width: 425px) {
+      body #timer .yycountdown-box .yyc-min {
+      font-size: 11vw;
+      width:  15%;
+      left:  48%; } }
   body #timer .yycountdown-box .yyc-sec {
     font-size: 6vw;
     font-family: futura-pt-bold, sans-serif;
@@ -3106,6 +3121,11 @@ div.header h3{
     position: absolute;
     top: 0;
     left: 63.5%; }
+    @media screen and (max-width: 425px) {
+      body #timer .yycountdown-box .yyc-sec {
+      font-size: 11vw;
+      width:  15%;
+      left: 65.5%; } }
   body #timer .yycountdown-box .yyc-day-text {
     font-size: 1.2vw;
     font-family: futura-pt-bold, sans-serif;
@@ -3117,6 +3137,11 @@ div.header h3{
     position: absolute;
     top: 110%;
     left: 28.5%; }
+    @media screen and (max-width: 425px) {
+      body #timer .yycountdown-box .yyc-day-text {
+      top: 200%;
+      width:  15%;
+      left: 18.5%; } }
   body #timer .yycountdown-box .yyc-hou-text {
     font-size: 1.2vw;
     width: 8%;
@@ -3128,6 +3153,11 @@ div.header h3{
     position: absolute;
     top: 110%;
     left: 38.5%; }
+    @media screen and (max-width: 425px) {
+      body #timer .yycountdown-box .yyc-hou-text {
+      top: 200%;
+      width:  15%;
+      left: 31.5% } }
   body #timer .yycountdown-box .yyc-min-text {
     font-size: 1.2vw;
     width: 8%;
@@ -3139,6 +3169,11 @@ div.header h3{
     position: absolute;
     top: 110%;
     left: 51%; }
+    @media screen and (max-width: 425px) {
+      body #timer .yycountdown-box .yyc-min-text {
+      top: 200%;
+      width:  15%;
+      left: 48%; } }
   body #timer .yycountdown-box .yyc-sec-text {
     font-size: 1.2vw;
     width: 8%;
@@ -3150,6 +3185,11 @@ div.header h3{
     position: absolute;
     top: 110%;
     left: 63.5%; }
+    @media screen and (max-width: 425px) {
+      body #timer .yycountdown-box .yyc-sec-text {
+      top: 200%;
+      width:  15%;
+      left: 65.5%; } }
   body #eventDate {
     font-size: 1.5vw;
     text-align: center;
@@ -3157,6 +3197,9 @@ div.header h3{
     font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 400; }
+    @media screen and (max-width: 425px) {
+      body #eventDate {
+      padding: 15% 0 10%; } }
 
 body.lp {
   width: 100%;
@@ -3172,44 +3215,68 @@ body.lp {
     body.lp main .image_02 img {
       width: 100%; }
 
+/* =====cotnact追記===== */
+  .col-md-12 h1 {
+    text-align:  center;
+    font-family: 'Roboto', sans-serif;
+  }
+  .col-md-12 .link {
+    padding: 3%;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .col-md-12 .link li a {
+    font-size:  1vw;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:  #4d4d4d;
+  }
+  .col-md-12 .address {
+    border:  1px solid #ddd;
+    background-color: #f0f0f0;
+    margin-bottom: 6%;
+    padding: 3%;
+    text-align:  center;
+  }
+  .col-md-12 .address .text {
+    border:  1px solid #ddd;
+    width:  20%;
+    margin: 0 auto;
+    padding: 1% 0;
+  }
+  .col-md-12 .address p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  bold;
+    font-size: 2.1rem;
+    color:  #111;
+  }
+  .col-md-12 .address span {
+    display: block;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
 
-      .col-md-12 h1 {
-        text-align:  center;
-        font-family: 'Roboto', sans-serif;
-      }
-      .col-md-12 .link {
-        padding: 3%;
-        font-family: 'Noto Sans JP', sans-serif;
-      }
-      .col-md-12 .link li a {
-        font-size:  1vw;
-        font-family: 'Noto Sans JP', sans-serif;
-        color:  #4d4d4d;
-      }
-      .col-md-12 .address {
-        border:  1px solid #ddd;
-        background-color: #f0f0f0;
-        margin-bottom: 6%;
-        padding: 3%;
-        text-align:  center;
-      }
-      .col-md-12 .address .text {
-        border:  1px solid #ddd;
-        width:  20%;
-        margin: 0 auto;
-        padding: 1% 0;
-      }
-      .col-md-12 .address p {
+  /* =====sns=====
+ */
+    .sns {
+       text-align: center;
+    }
+    .sns li {
+        display: inline-block;
         text-align: center;
-        font-family: 'Roboto', sans-serif;
-        font-weight:  bold;
-        font-size: 2.1rem;
-        color:  #111;
-      }
-      .col-md-12 .address span {
-        display: block;
-        font-family: 'Noto Sans JP', sans-serif;
-      }
+    }
+    .sns li a {
+         height:50px;
+         width:50px;
+         border-radius:50%;
+         line-height:50px;
+         text-align:center;
+         background-color: #111;
+         display: block;
+
+     }
+
+    .sns li a i {
+        font-size: 2rem;
+     }
 
 
 
