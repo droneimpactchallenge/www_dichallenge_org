@@ -62,7 +62,12 @@ li {
 #navigation .container {
     width:  ;
 }
-
+.navbar-toggle {
+    padding: 3% 0 0 3%;
+}
+@media screen and (max-width: 320px) {
+  .navbar-toggle{
+    padding: 2% 0 0 3%;} }
 
 .navbar-toggle i { color: #fff; }
 
@@ -79,7 +84,10 @@ li {
 }
 @media screen and (max-width: 425px) {
   .logo_new {
-    padding: 3% 0 0 6%;} }
+    padding: 2% 0 0 6%;} }
+@media screen and (max-width: 320px) {
+  .logo_new {
+    padding: 0 0 0 6%;} }
 
 
 .logo_new img {
@@ -99,7 +107,7 @@ nav {
 }
 
 .navbar-nav li a {
-    line-height:  40px;
+    line-height:  50px;
     font-family: 'Roboto', sans-serif;
 }
 
