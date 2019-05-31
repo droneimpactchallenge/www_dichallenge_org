@@ -3366,7 +3366,10 @@ body.lp {
   padding-top: 9%; } }
 @media screen and (max-width: 425px) {
   .top_img  {
-  padding-top: 17%; } }
+  padding-top: 13%; } }
+@media screen and (max-width: 320px) {
+  .top_img  {
+  padding-top: 15%; } }
 
 .schedule {
     width:  60%;
