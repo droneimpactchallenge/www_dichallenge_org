@@ -77,10 +77,10 @@ li {
 
 @media screen and (max-width: 425px) {
   .navbar-toggle i  {
-    font-size: 5rem;} }
+    font-size: 3rem;} }
 @media screen and (max-width: 320px) {
   .navbar-toggle i  {
-    font-size: 4rem;} }
+    font-size: 2.5rem;} }
 
 .logo_new {
     width:  40%;
@@ -107,6 +107,7 @@ li {
 }
 @media screen and (max-width: 425px) {
   .logo_new img {
+    width: 70%;
     padding: 0 0 0 6%;
     padding-bottom: 5%;} }
 @media screen and (max-width: 425px) {
@@ -3370,7 +3371,7 @@ body.lp {
   padding-top: 17%; } }
 
 .schedule {
-    width:  40%;
+    width:  60%;
     margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
