@@ -65,6 +65,9 @@ li {
 .navbar-toggle {
     padding: 3% 0 0 3%;
 }
+@media screen and (max-width: 768px) {
+  .navbar-toggle{
+    padding: 2% 0 0 3%;} }
 @media screen and (max-width: 425px) {
   .navbar-toggle{
     padding: 0 0 0 3%;} }
@@ -83,8 +86,16 @@ li {
     width:  40%;
     padding: 6% 0 0 6%;
 }
+@media screen and (max-width: 1199px) {
+  .logo_new {
+    width:  20%;
+    padding: 2% 0 8% 6%;} }
+@media screen and (max-width: 1199px) {
+  .logo_new {
+    padding: 2% 0 2% 6%;} }
 @media screen and (max-width: 425px) {
   .logo_new {
+    width: 40%;
     padding: 0 0 0 6%;} }
 @media screen and (max-width: 320px) {
   .logo_new {
@@ -3346,6 +3357,113 @@ body.lp {
 .sns li a i {
     font-size: 2rem;
  }
+
+/* =====5/31追加分===== */
+.top_img {
+    padding-top: 5%;
+}
+@media screen and (max-width: 768px) {
+  .top_img  {
+  padding-top: 9%; } }
+@media screen and (max-width: 425px) {
+  .top_img  {
+  padding-top: 17%; } }
+
+.schedule {
+    width:  60%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .schedule {
+  width: 90%; } }
+
+.schedule::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.top_img img {
+    width:  100%;
+}
+
+.list .text dl {
+    border: 1px solid #ddd;
+    padding: 3%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.list .text dl dt {
+    float: left;
+    padding-top:  1%;
+}
+
+.list .text dt span {
+    letter-spacing: 23px;
+}
+
+.list .text dd {
+    margin-left: 25%;
+    padding-top:  1%;
+}
+
+center::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.movie-wrap {
+    width: 48%;
+    margin: 1%;
+    position: relative;
+    padding-top: 26.25%; /*アスペクト比 16:9の場合の縦幅*/
+    height: 0;
+    overflow: hidden;
+    float: left;
+}
+@media screen and (max-width: 768px) {
+  .movie-wrap {
+  float: none;
+  width: 90%;
+  padding-top: 56.25%; } }
+
+
+.movie-wrap iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .movie-wrap iframe {
+  padding-bottom: 5%; } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
