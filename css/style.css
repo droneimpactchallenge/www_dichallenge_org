@@ -1371,18 +1371,33 @@ ul.tag li a {
 
 .copyright {
     color: #fff;
-    padding-top:15px;
-    font-size:0.8em;
+    padding: 1% 0;
+}
+.copyright::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .copyright p {
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1%;
+    font-size: 1rem;
+    display: block;
+    float: left;
 }
 
-.copyright p a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.9rem;
+.copyright a {
+    display: block;
+    float: right;
+    font-size: 1.5rem;
 }
+
+.copyright a img {
+    padding: 0 10px;
+}
+
+
 
 .page-footer { padding: 0% 13% }
 .page-footer h1 { padding-left: 4% }
