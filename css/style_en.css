@@ -1387,11 +1387,23 @@ ul.tag li a {
     float: left;
 }
 
+@media screen and (max-width: 425px) {
+  .copyright p {
+    width: 100%;
+    text-align: center;
+    float: none;
+    } }
+
 .copyright a {
     display: block;
     float: right;
     font-size: 1.5rem;
 }
+@media screen and (max-width: 425px) {
+  .copyright a {
+    text-align: center;
+    float: none;
+    } }
 
 .copyright a img {
     padding: 0 10px;
