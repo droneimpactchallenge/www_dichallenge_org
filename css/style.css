@@ -3440,7 +3440,7 @@ body.lp {
   .movie-wrap {
   float: none;
   width: 90%;
-  padding-top: 56.25%; } }
+  margin: 1% auto;} }
 
 .movie-wrap a {
     width: 100%;
