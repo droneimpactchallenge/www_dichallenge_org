@@ -3413,7 +3413,7 @@ body.lp {
 }
 
 .movie-wrap {
-    width: 48%;
+    width: 800px;
     height:400px;
     object-fit: contain;
     margin: 1%;
