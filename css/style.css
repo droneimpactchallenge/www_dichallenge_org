@@ -3419,7 +3419,7 @@ body.lp {
     margin: 1%;
     float: left;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width:321px) and (max-width: 768px) {
   .movie-wrap {
   float: none;
   width: 90%;
@@ -3430,7 +3430,21 @@ body.lp {
     height:100%;
     display: block;
 }
+@media screen and (max-width: 320px) {
+  .movie-wrap {
+  float: none;
+  width: 90%;
+  object-fit: contain;
+  margin: 1% auto;} }
 
+.movie-wrap a {
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+    display: block;
+}
+
+ 
 .movie-wrap a:hover {
     color: #fff;
     opacity: 0.8;
