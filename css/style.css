@@ -3423,6 +3423,7 @@ body.lp {
   .movie-wrap {
   float: none;
   width: 90%;
+  object-fit: contain;
   margin: 1% auto;} }
 
 .movie-wrap a {
