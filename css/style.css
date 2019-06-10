@@ -3419,7 +3419,7 @@ body.lp {
     margin: 1%;
     float: left;
 }
-@media screen and  (max-width: 750px) {
+@media screen and  (max-width: 768px) {
   .movie-wrap {
   float: none;
   width: 90%;
