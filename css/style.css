@@ -3317,7 +3317,7 @@ body.lp {
   .col-md-12 .address span {
     display: block;
     font-family: 'Noto Sans JP', sans-serif;
-    padding-bottom:  2%;
+    padding-bottom:  none;
   }
 
 /* =====concept===== */
