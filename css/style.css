@@ -3471,7 +3471,7 @@ body.lp {
     padding: 1%;
     font-size:1.8vw;
     font-family: 'Noto Sans JP', sans-serif;
-    text-align: center;
+    margin:0 auto;
     color:  #333;
 }
 .moushikomi p a:hover {
