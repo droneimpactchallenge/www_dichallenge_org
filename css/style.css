@@ -3469,10 +3469,10 @@ body.lp {
 
 .moushikomi p{
     padding: 1%;
-    font-size:3.5rem;
+    font-size:3vw;
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
-    color:  #fff;
+    color:  #111;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
