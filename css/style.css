@@ -3407,6 +3407,7 @@ body.lp {
 }
 
 .movie-wrap::after {
+    
     content: "";
     display: block;
     clear: both;
