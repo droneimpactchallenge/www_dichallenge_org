@@ -3467,7 +3467,7 @@ body.lp {
     background:lightpink;
 }
 
-.moushikomi p{
+.moushikomi p a{
     padding: 1%;
     font-size:1.8vw;
     font-family: 'Noto Sans JP', sans-serif;
