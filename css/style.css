@@ -3423,11 +3423,12 @@ body.lp {
   .movie-wrap {
   float: none;
   width: 90%;
+  height: auto;
   margin: 1% auto;} }
 
 .movie-wrap a {
     width: 100%;
-    height:100%;
+    height:auto;
     display: block;
 }
 
