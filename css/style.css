@@ -3387,7 +3387,7 @@ body.lp {
 }
 
 .list .text dl {
-    border: none;
+    border: 1px solid #ddd;
     padding: 3%;
     font-family: 'Noto Sans JP', sans-serif;
 }
