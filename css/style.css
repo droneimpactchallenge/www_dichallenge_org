@@ -3470,23 +3470,18 @@ body.lp {
 .moushikomi{
     width:90%;
     margin:0 auto;
-    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .moushikomi .text p a{
     float: none;
     padding: 1%;
-    width:auto;
     font-size:1.8vw;
     font-weight:bold;
-    font-family: 'Noto Sans JP', sans-serif;
-    margin:0 auto;
     text-align: center;
     color:  #333;
 }
 .moushikomi .text p a:hover {
-    text-align: center;
-    margin:0 auto;
     color: #ddd;
   }
 
