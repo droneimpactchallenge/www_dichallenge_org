@@ -3495,7 +3495,7 @@ body.lp {
     color: #ddd;
   }
 
-.moushikomi p a center{
+.moushikomi center p a{
     padding: 1%;
     width:95%;
     font-size:1.8vw;
@@ -3504,7 +3504,7 @@ body.lp {
     margin:0 auto;
     color:  #333;
 }
-.moushikomi p a center:hover {
+.moushikomi center p a:hover {
     text-align: center;
     color: #ddd;
   }
