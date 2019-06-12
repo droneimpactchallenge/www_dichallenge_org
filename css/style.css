@@ -3470,6 +3470,7 @@ body.lp {
 .moushikomi p a{
     padding: 1%;
     width:auto;
+    background:#EEE;
     font-size:1.8vw;
     font-weight:bold;
     font-family: 'Noto Sans JP', sans-serif;
