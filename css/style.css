@@ -3467,7 +3467,7 @@ body.lp {
     background:lightpink;
 }
 
-.moushikomi p a{
+.moushikomi div p a{
     padding: 1%;
     width:70%;
     font-size:1.8vw;
@@ -3476,7 +3476,7 @@ body.lp {
     margin:0 auto;
     color:  #333;
 }
-.moushikomi p a:hover {
+.moushikomi div p a:hover {
     text-align: center;
     color: #ddd;
   }
