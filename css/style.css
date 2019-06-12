@@ -3467,7 +3467,12 @@ body.lp {
     background:lightpink;
 }
 
-.moushikomi p a{
+.moushikomi{
+    width:90%;
+    margin:0 auto;
+}
+
+.moushikomi .text p a{
     float: none;
     padding: 1%;
     width:auto;
@@ -3478,11 +3483,12 @@ body.lp {
     text-align: center;
     color:  #333;
 }
-.moushikomi p a:hover {
+.moushikomi .text p a:hover {
     text-align: center;
     margin:0 auto;
     color: #ddd;
   }
+
 
 
 
