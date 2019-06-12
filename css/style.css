@@ -3481,35 +3481,6 @@ body.lp {
     color: #ddd;
   }
 
-.moushikomi p center a{
-    padding: 1%;
-    width:95%;
-    font-size:1.8vw;
-    font-weight:bold;
-    font-family: 'Noto Sans JP', sans-serif;
-    margin:0 auto;
-    color:  #333;
-}
-.moushikomi p center a:hover {
-    text-align: center;
-    color: #ddd;
-  }
-
-.moushikomi center p a{
-    padding: 1%;
-    width:95%;
-    font-size:1.8vw;
-    font-weight:bold;
-    font-family: 'Noto Sans JP', sans-serif;
-    margin:0 auto;
-    color:  #333;
-}
-.moushikomi center p a:hover {
-    text-align: center;
-    color: #ddd;
-  }
-
-
 
 
 
