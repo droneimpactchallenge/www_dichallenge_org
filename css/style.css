@@ -3480,6 +3480,7 @@ body.lp {
     font-weight:bold;
     text-align: center;
     color:  #333;
+    display: block;
 }
 .moushikomi .text p a:hover {
     color: #ddd;
