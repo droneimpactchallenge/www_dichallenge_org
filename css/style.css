@@ -3486,6 +3486,21 @@ body.lp {
     color: #ddd;
   }
 
+@media screen and  (max-width: 768px) {
+.moushikomi .text p a{
+    float: none;
+    padding: 1%;
+    font-size:3.2vw;
+    font-weight:bold;
+    text-align: center;
+    color:  #333;
+    display: block;
+    border: none;
+}
+.moushikomi .text p a:hover {
+    color: #ddd;
+  }
+}
 
 
 
