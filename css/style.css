@@ -3504,7 +3504,7 @@ body.lp {
 /*スポンサー*/
 @media screen and  (max-width: 768px) {
 .sponsors-wrap a img {
-    width: 33%;
+    width: 20%;
     height: 100%;
 }
 .sponsors-wrap img {
@@ -3515,7 +3515,7 @@ body.lp {
     
 /*富士通ロゴ*/
 .fujitsu-wrap img {
-    width: 30%;
+    width: 20%;
     height: 100%;
 }
 
