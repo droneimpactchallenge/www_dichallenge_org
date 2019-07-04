@@ -3513,20 +3513,35 @@ body.lp {
 }
 }
     
-/*富士通ロゴ*/
+/*ロゴラージ*/
 .fujitsu-wrap img {
-    width: 20%;
-    height: 100%;
+    height: 70px;
 }
 
 @media screen and  (max-width: 768px) {
 .fujitsu-wrap img {
-    width: 50%;
-    height: 50%;
+    height: 70px;
 }
 }
 
-
+/*ロゴミディアム*/
+.logomid-wrap img {
+    height: 30px;
+}
+@media screen and  (max-width: 768px) {
+.logomid-wrap img {
+    height: 30px;
+}
+}
+/*ロゴスモール*/
+.logosma-wrap img {
+    height: 20px;
+}
+@media screen and  (max-width: 768px) {
+.logosma-wrap img {
+    height: 20px;
+}
+}
 
 
 
