@@ -3515,14 +3515,17 @@ body.lp {
     
 /*ロゴラージ*/
 .fujitsu-wrap img {
-    height: 70px;
+    width:20%;
+    height:100%;
 }
 
 @media screen and  (max-width: 768px) {
 .fujitsu-wrap img {
-    height: 70px;
+    width:60%;
+    height: 60%;
 }
 }
+
 
 /*ロゴミディアム*/
 .logomid-wrap img {
