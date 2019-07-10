@@ -3529,12 +3529,16 @@ body.lp {
 
 /*ロゴミディアム*/
 .logomid-wrap img {
-    height: 30px;
+    width:18%;
+    height:100%;
 }
 @media screen and  (max-width: 768px) {
 .logomid-wrap img {
-    height: 30px;
+    width:60%;
+    height: 60%;
 }
+    
+    
 }
 /*ロゴスモール*/
 .logosma-wrap img {
