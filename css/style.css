@@ -3550,7 +3550,10 @@ body.lp {
 }
 }
 
-
+.premiumlogo a img {
+    width:20%;
+    height:60%;
+}
 
 
 
