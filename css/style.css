@@ -3555,7 +3555,12 @@ body.lp {
     height:100%;
 }
 
+/*スケジュール*/
 
+.schedule img {
+    width:80%;
+    height:100%;
+}
 
 
 
